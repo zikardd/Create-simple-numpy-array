@@ -1,0 +1,14 @@
+# import numpy library
+import numpy as np
+
+# initialize variable of numpy array and python list, to know the difference between them.
+NP = np.array([1,2,3,4]) # numpy array
+PY = [1,2,3,4]           # list python
+
+# Add one to both variables
+NP = NP + 1   # the result is [2 3 4 5]
+PY = PY + [1] # the result is [1, 2, 3, 4, 5, 1]
+
+# Show the result
+print(NP)
+print(PY)
